@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/seta-de-moeda-para-transferencia-de-dinheiro 1.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        
+        <div id="image1">
+            <img src="./assets/seta-de-moeda-para-transferencia-de-dinheiro 1.svg" alt="Main-logo" id="Main-logo">
+         </div>
+
+        <div id="main-div">
+            <label for="from-select">Converter de</label>
+
+            <select id="from-select">
+                <option>R$ Real</option>
+                <option>U$ Dólar</option>
+                <option>€ Euro</option>
+                <option>£ Libra</option>
+                <option>¥ Iene</option>
+                <option>₣ Franco Suiço</option>
+                <option>ETH Ether</option>
+                <option>BTC Bitcoin</option>
+            </select>
+
+            <label for="to-select">Para</label>
+
+            <select id="to-select">
+                <option>U$ Dólar</option>
+                <option>R$ Real</option>
+                <option>€ Euro</option>
+                <option>£ Libra</option>
+                <option>¥ Iene</option>
+                <option>₣ Franco Suiço</option>
+                <option>ETH Ether</option>
+                <option>BTC Bitcoin</option>
+            </select>
+
+            <label for="valor">Valor</label>
+
+            <input placeholder="Insira um valor" autofocus type="text" id="valor" oninput="formatarMoeda(this)"></input>
+            <button id="convert-button">Converter</button>
+
+            <section>
+                <div id="container-left">
+                    <img src="./assets/brasil 2.png" alt="convert-logo" id="convert-logo">
+
+                    <div id="left-text">
+                        <p id="left-title">BRL</p>
+                        <p id="left-value">R$ 0,00</p>
+                    </div>
+                </div>
+
+                <button id="invert-button"><img id="seta" src="./assets/intercambio 1.png"></button>
+
+                <div id="container-right">
+                    <img src="./assets/eua.png" alt="converted-logo" id="converted-logo">
+                    <div id="right-text"></div>
+                    <p id="right-title">USD</p>
+                    <p id="right-value">U$ 0,00</p>
+                </div>
+        </div>
+        </div>
+        
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
