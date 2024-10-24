@@ -55,7 +55,7 @@
     </ul>
     <h2 id="demonstracao">📸 Demonstração</h2>
     <p>Aqui está uma prévia de como o projeto se parece:</p>
-    <img src="./assets/conversor-preview.png" alt="Demonstração do Conversor de Moedas">
+    <img src="https://github.com/ronaldodfilho/Conversor-de-moedas/blob/main/assets/conversor-preview.png?raw=true">
 <p>Feito por <a href="https://github.com/seu-usuario">Ronaldo Dutra Filho</a> 😊</p>
     
     
