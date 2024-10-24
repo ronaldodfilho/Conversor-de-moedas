@@ -181,6 +181,13 @@ label {
     select {
         padding-left: 1.5vw;
     }
+
+    #Main-logo {
+        /* top: -2vh; */
+        width: 90px;
+        height: 90px;
+    }
+    
 }
 
 
@@ -200,8 +207,8 @@ label {
 
     #Main-logo {
         /* top: -2vh; */
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     #convert-button {
@@ -242,4 +249,8 @@ label {
         padding-left: 5vw;
     }
 
+    #image1 {
+        padding-bottom: 0;   
+    }
+    
 }
